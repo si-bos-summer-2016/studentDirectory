@@ -1,0 +1,42 @@
+[
+	{
+		"name"			: "Alison Fanning",
+		"shortname"	:	"alison_fanning",
+		"track"			:	"Web Design",
+		"company"		: "ZipCar",
+		"title"			: "UX Designer",
+		"bio"				:	"UX designer with a passion for understanding customers and designing products that make a difference."
+	},
+	{
+		"name"			: "Anthony Ware",
+		"shortname"	:	"anthony_ware",
+		"track"			:	"Web Design",
+		"company"		: "Intrepid Pursuits",
+		"title"			: "IOS Developer",
+		"bio"				:	"I decided to attend Startup Institute to apply my passion for building and creating things to a career in Web Design. "
+	},
+	{
+		"name"			: "Daniel Zuzevich",
+		"shortname"	:	"daniel_zuzevich",
+		"track"			:	"Web Design",
+		"company"		: "Mavrck",
+		"title"			: "Front End Developer",
+		"bio"				:	"Go Big... Or Go Home."
+	},
+	{
+		"name"			: "Luciano Oliveira",
+		"shortname"	:	"luciano_oliveira",
+		"track"			:	"Web Design",
+		"company"		: "SessionM",
+		"title"			: "Front End Developer",
+		"bio"				:	"I love to code, I love to make things work, I love when a good design comes to life. My short term goal is to be a Front End Developer, and my next goal is to became a Full Stack Developer."
+	},
+	{
+		"name"			: "Mike Baldwin",
+		"shortname"	:	"mike_baldwin",
+		"track"			:	"Web Design",
+		"company"		: "meQuilibrium",
+		"title"			: "Front End Developer",
+		"bio"				:	"I'm a front-end focused software engineer who loves building applications that people love to use!."
+	}
+]

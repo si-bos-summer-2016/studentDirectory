@@ -1,0 +1,44 @@
+<section class="studentpage">
+	<div class="search">
+		<h2>Student Directory</h2>
+		<label>Search:</label>
+		<input ng-model="query" placeholder="Students, Title, Track, Employer" autofocus>
+		<i class="fa fa-search fa-lg" aria-hidden="true"></i>
+		<label class="formgroup">by:
+			<select ng-model="studentOrder">
+				<option value="name">Name</option>
+				<option value="title">Title</option>
+				<option value="track">Track</option>
+				<option value="company">Company</option>
+			</select>
+		</label>
+	</div>
+	<div class="row studentlist">
+		<div class="col s12 m4 l4 student" ng-repeat="item in students | filter: query | orderBy: studentOrder">
+			<a href="#/details/{{students.indexOf(item)}}">
+			  <div class="card horizontal">	
+			    <div class="card-image profileImage">
+			      <img ng-src="images/{{item.shortname}}.png" alt="Photo of {{item.name}}">
+			    </div>
+			    <div class="card-stacked">
+			    	<div class="card-content info">
+				      <h4>{{item.name}}</h4>
+				      <h5>{{item.title}}</h5>
+				      <h5>{{item.company}}</h5>
+				      <h5>Track: {{item.track}}</h5>
+				      <p>{{item.bio}}</p>
+			    	</div>
+			    </div>
+			    <div class="card-action">
+			      <a href="#">This is a link</a>
+			      <a href="#">This is a link</a>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			  	</div>
+	  		</div>
+  		</a>
+  	</div>
+  </div> 
+</section>

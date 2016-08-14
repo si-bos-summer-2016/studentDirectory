@@ -1,0 +1,66 @@
+/*.profileImage {
+	width: 80%;
+}*/
+
+/** {
+	outline: 1px solid red;
+}*/
+
+.info {
+	color: black;
+	height: 350px;
+	text-align: center;
+}
+
+.student {
+	/*float: left;*/
+	/*border: 2px solid black;*/
+}
+
+.card-image img {
+	height: 340px;
+}
+
+/* ==== SEARCH BOX ===== */
+.search {
+	background-color: lightgray;
+	padding: 8px;
+	position: inherit;
+}
+.search h2 {
+	font-variant: small-caps;
+	text-align: center;
+}
+.search label {
+	font-size: large;
+}
+.search input {
+	border: 2px solid gray;
+	width: 70%;
+	background-color: white;
+	border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.fa-search {
+	position: relative;
+	z-index: 10;
+	left: -30px;
+}
+
+.search label.formgroup {
+  display: inline;
+  width: auto;
+}
+
+.search select {
+  display: inline;
+  padding: 10px 0 10px 15px;
+  font-size: 1rem;
+  color: #475B62;
+  background: rgba(255,255,255,0.4);
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 10px;
+  outline: 0;
+  width: 120px;
+}
