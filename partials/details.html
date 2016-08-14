@@ -1,0 +1,22 @@
+<section class="studentinfo"> 
+  <div class="card waves-effect waves-block waves-light" ng-model="students">
+  <div class="card-image" id="imageTest">
+  	<img class="activator hoverZoomLink" ng-src="images/{{students[whichItem].shortname}}.png" alt="Photo of {{students[whichItem].name}}">
+  </div>
+  <div class="right-content">
+    <span class="card-title">
+    	{{students[whichItem].name}}	
+    </span>
+    <p>{{students[whichItem].title}} at {{students[whichItem].company}}</p>
+    <div class="card-content">
+    	<h5>{{students[whichItem].track}}</h5>
+      <p class="bio">{{students[whichItem].bio}}</p>
+    </div>
+    <div class="card-action">
+      <a href="/#list">&laquo; Back to search</a>
+      <a href="#">This is a link</a>
+    </div>
+  </div>
+</div>      	
+</section>
+

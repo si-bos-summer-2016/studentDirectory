@@ -2,9 +2,9 @@
 	width: 80%;
 }*/
 
-/** {
+* {
 	outline: 1px solid red;
-}*/
+}
 
 .info {
 	color: black;
@@ -63,4 +63,32 @@
   border-radius: 10px;
   outline: 0;
   width: 120px;
+}
+
+/* ==== DETAILS ==== */
+/*#imageTest {
+	float: left;
+	width: 50%;
+	height: 50%;
+}
+*/
+#imageTest {
+  float: left;
+  width: 40%;
+  height: 250px;
+}
+#imageTest img {
+  height: 300px;
+  width: 300px;
+}
+.right-content {
+  width: 60%;
+  float: left;
+}
+.card-title {
+  padding-left: 20px;
+}
+
+.right-content p:first-of-type {
+	padding-left: 20px;
 }
