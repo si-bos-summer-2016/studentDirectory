@@ -38,5 +38,29 @@
 		"company"		: "meQuilibrium",
 		"title"			: "Front End Developer",
 		"bio"				:	"I'm a front-end focused software engineer who loves building applications that people love to use!."
+	},
+	{
+		"name"			: "Scott Martin",
+		"shortname"	:	"scott_martin",
+		"track"			:	"Marketing",
+		"company"		: "Fuze",
+		"title"			: "Marketing Manager",
+		"bio"				:	"Content creator and analytical marketer with a penchant for humor, sports, and intellectual growth."
+	},
+	{
+		"name"			: "Henry Howard",
+		"shortname"	:	"henry_howard",
+		"track"			:	"Marketing",
+		"company"		: "Flywire",
+		"title"			: "Sales Manager",
+		"bio"				:	"Wherever you go, go with all your heart. 'Confucius'"
+	},
+	{
+		"name"			: "Jed Hammel",
+		"shortname"	:	"jed_hammel",
+		"track"			:	"Marketing",
+		"company"		: "Fresh Tilled Soil",
+		"title"			: "Senior Marketing Manager",
+		"bio"				:	"I am here to bring people together."
 	}
 ]

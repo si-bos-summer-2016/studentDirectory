@@ -13,7 +13,7 @@
 			</select>
 		</label>
 	</div>
-	<div class="row studentlist">
+	<div class="row studentlist container">
 		<div class="col s12 m4 l4 student" ng-repeat="item in students | filter: query | orderBy: studentOrder">
 			<a href="#/details/{{students.indexOf(item)}}">
 			  <div class="card horizontal">	

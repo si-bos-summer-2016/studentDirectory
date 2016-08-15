@@ -1,10 +1,17 @@
-/*.profileImage {
-	width: 80%;
-}*/
-
-* {
+/** {
 	outline: 1px solid red;
 }
+*/
+
+
+/*===== GENERAL ======*/
+
+.studentpage {
+	background: #757F9A; /* fallback for old browsers */
+	background: -webkit-linear-gradient(bottom, #757F9A, #D7DDE8);
+	background: -o-linear-gradient(bottom, #757F9A, #D7DDE8);
+	background: linear-gradient(to bottom, #757F9A, #D7DDE8); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}	
 
 .info {
 	color: black;
@@ -12,20 +19,17 @@
 	text-align: center;
 }
 
-.student {
-	/*float: left;*/
-	/*border: 2px solid black;*/
-}
-
 .card-image img {
 	height: 340px;
 }
 
+
 /* ==== SEARCH BOX ===== */
 .search {
-	background-color: lightgray;
+	background-color: #bdc3c7;
 	padding: 8px;
 	position: inherit;
+	width: 100%;
 }
 .search h2 {
 	font-variant: small-caps;
@@ -66,12 +70,7 @@
 }
 
 /* ==== DETAILS ==== */
-/*#imageTest {
-	float: left;
-	width: 50%;
-	height: 50%;
-}
-*/
+
 #imageTest {
   float: left;
   width: 40%;
@@ -91,4 +90,26 @@
 
 .right-content p:first-of-type {
 	padding-left: 20px;
+}
+
+.right-content img:first-of-type {
+	width: 12%;
+	/*height: 10%;*/
+	position: absolute;
+	right: 0;
+	padding-right: 10px;
+}
+
+.social {
+	width: 100px;
+	float: right;
+	margin-top: -10px;
+}
+.social ul {
+	display: inline;
+}
+
+.social li {
+	display: inline-block;
+	margin: 5px;
 }
